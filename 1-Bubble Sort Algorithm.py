@@ -21,10 +21,11 @@ for i in range(n): # n kere tekrar et
    for x in range(n-i-1): # IndexError almamak için n-i-1 kullandık çünkü index 0dan başlar -i ise zaten sıralanmış olan elemanları tekrar tekrar kontrol etmeyi engeller
         if dizi[x] > dizi[x+1]:
             dizi[x], dizi[x+1] = dizi[x+1], dizi[x]
-            os.system("cls") # her değişimde konsolu siler daha hoş görüntü için (windows)
+            os.system("cls") # her değişimde konsolu siler daha hoş görüntü için
             ciz(dizi)
             time.sleep(0.5)
 
 print(dizi)
+
 
 
