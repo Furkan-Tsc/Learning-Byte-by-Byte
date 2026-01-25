@@ -11,7 +11,10 @@ def ciz(dizi): # listeyi yıldızlarla gösterme fonksiyonu
     for i in dizi:
         print("*" * i)
 
-os.system("cls")
+def konsol_temizle():
+    os.system('cls' if os.name == 'nt' else 'clear') # windows ise cls mac/linux ise clear)
+
+konsol_temizle()
 ciz(dizi)
 time.sleep(1)
 
@@ -22,12 +25,12 @@ for i in range(1, len(dizi)): # ilk eleman zaten sıralı kabul edildiği için 
         dizi[x+1] = dizi[x] # x. indeksdeki elemanı (x+1). indekse kopyalar
         x = x - 1
         
-        os.system("cls") # konsolu siler daha hoş görüntü için
+        konsol_temizle() # konsolu siler daha hoş görüntü için
         ciz(dizi)
         time.sleep(0.3)
         
     dizi[x+1] = sayi # doğru boşluk bulunduğunda doğru sayıyı oraya yerleştirir
 
-    os.system("cls")
+    konsol_temizle()
     ciz(dizi)
     time.sleep(0.5)
