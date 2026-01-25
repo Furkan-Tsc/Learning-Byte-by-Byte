@@ -26,6 +26,3 @@ for i in range(n): # n kere tekrar et
             time.sleep(0.5)
 
 print(dizi)
-
-
-
