@@ -34,3 +34,5 @@ for i in range(1, len(dizi)): # ilk eleman zaten sıralı kabul edildiği için 
     konsol_temizle()
     ciz(dizi)
     time.sleep(0.5)
+
+print(dizi)
