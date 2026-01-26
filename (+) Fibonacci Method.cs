@@ -30,8 +30,9 @@ internal class Program
         Console.Write("Fibonacci Sayısı: ");
         int sayi = int.Parse(Console.ReadLine());
         fibonacciTablo(sayi);
-        Console.ReadLine();
+        Console.ReadKey();
     }
 
 }
+
 
