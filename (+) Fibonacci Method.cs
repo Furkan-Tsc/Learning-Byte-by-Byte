@@ -12,7 +12,7 @@ internal class Program
             return;
         }
 
-        int[] f = new int[n + 1];
+        int[] f = new int[n + 1]; // fibonacci değerlerinin saklandığıı dizi
 
         // fibonacci dizisi 0 1 1 2 3 5 8 13... olarak gider başlangıçta bize ilk 2 eleman lazım
         f[0] = 0;
@@ -32,4 +32,5 @@ internal class Program
         fibonacciTablo(sayi);
         Console.ReadLine();
     }
+
 }
