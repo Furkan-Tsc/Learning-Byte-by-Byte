@@ -1,5 +1,6 @@
 # Merge Sort
-# Bu algoritma bir diziyi ikiye böler ve en küçük parçaları sıralayıp birleştirir bunu tekrar tekrar yapar. Zamana göre sıralamada gayet iyidir ancak rami yoran bir algoritmadır yani önce listeyi karşılaştırıp ramde bir kopyasıını oluşturur sıraya dizer ve tekrar asıl listeye döker.
+# Bu algoritma bir diziyi ikiye böler ve en küçük parçaları sıralayıp birleştirir bunu tekrar tekrar yapar.
+# Zamana göre sıralamada gayet iyidir ancak rami yoran bir algoritmadır yani önce listeyi karşılaştırıp ramde bir kopyasıını oluşturur sıraya dizer ve tekrar asıl listeye döker.
 
 dizi = [19, 5, 3, 8, 2, 15, 10]
 
@@ -38,5 +39,6 @@ def birlestir(sol_yari, sag_yari): # iki ayrı sıralanmış listeyi tek listeye
     siralanmis_dizi.extend(sag_yari[x:])
     
     return siralanmis_dizi
+
 
 print(merge_sort(dizi))
