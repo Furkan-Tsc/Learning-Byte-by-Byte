@@ -1,4 +1,4 @@
-// Fibonacci Method
+// Fibonacci Methodu
 // Fibonacci dizisi kendinden önceki 2 sayının toplamıdır. Bu dizi matematikte formülü f(n) = f(n-1) + f(n-2) ile ifade edilebilir.
 
 using System;
@@ -34,3 +34,4 @@ internal class Program
     }
 
 }
+
