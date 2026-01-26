@@ -3,7 +3,7 @@
 
 using System;
 
-internal class Program
+internal class Fibonacci
 {
     public static void fibonacciTablo(int n)
     {
@@ -28,11 +28,21 @@ internal class Program
     static void Main(string[] args)
     {
         Console.Write("Fibonacci Sayısı: ");
-        int sayi = int.Parse(Console.ReadLine());
+        int sayi;
+
+        try
+        {
+            sayi = int.Parse(Console.ReadLine());
+        }
+        catch (FormatException) //input olarak sayı yerine harf vs. girilirse programın çökmesini engelle
+        {
+            Console.WriteLine("Sayı girmediniz");
+            return;
+        }
+
         fibonacciTablo(sayi);
         Console.ReadKey();
     }
 
 }
-
 
