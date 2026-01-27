@@ -25,8 +25,9 @@ internal class Program
 
         for (int i = sayi; i > 0 ; i--) // hesaplama için sayıyı 1e kadar tek tek azalt
         {
-            sonuc *= i; // sayi dan 1 kadar olan sayıların çarpımı
+            sonuc *= i; // sayi dan 1e kadar olan sayıların çarpımı
         }
         Console.WriteLine($"{sayi}!: " + sonuc);
     }
 }
+
