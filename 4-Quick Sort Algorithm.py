@@ -26,4 +26,6 @@ def quick_sort(dizi, bas, son):
         quick_sort(dizi, bas, referans_index - 1) # referansın sol tarafını aralarında sırala
         quick_sort(dizi, referans_index + 1, son) # referansın sağ tarafını aralarında sırala
 
+
 quick_sort(dizi, 0, len(dizi) - 1) # fonksiyonu dizinin ilk yani 0 ve son yani len-1 indexi ile kullanırız
+print(dizi)
