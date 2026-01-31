@@ -1,4 +1,4 @@
-﻿// Basit bir taş kağıt makas oyunu
+﻿// Basit bir taş kağıt makas oyunu / büyük küçük harfe duyarlıdır
 using System;
 using System.Collections.Generic;
 
@@ -33,3 +33,4 @@ internal class Program
         else { Console.Clear();  Console.WriteLine("Hatalı girdi"); } // hatalı girdiler
     }
 }
+
