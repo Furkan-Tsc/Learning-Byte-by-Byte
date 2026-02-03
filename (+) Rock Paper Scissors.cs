@@ -30,7 +30,7 @@ internal class Program
                  (secim == "Kağıt" || secim == "K" && index == 0))   // Kağıt vs Taş - Kağıt alır
         { Console.WriteLine("Kazandın"); }
 
-        else { Console.Clear();  Console.WriteLine("Hatalı girdi"); } // hatalı girdiler
-    }
+        else { Console.Clear();  Console.WriteLine("Hatalı girdi, büyük küçük harflere dikkat"); } // hatalı girdiler
 }
+
 
